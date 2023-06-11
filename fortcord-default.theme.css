@@ -1,0 +1,70 @@
+:root {
+    /* Primary Color (Default: rgb(85, 8, 8) ) */
+    --color1: rgb(0, 0, 0);
+    /* Secondary Color (Default: rgb(56, 0, 0) ) */
+    --color2: rgb(0, 0, 0);
+
+    /* Primary Color Buttons On Hover (Default: rgb(95, 9, 9) ) */
+    --color3: rgb(0, 0, 0);
+    /* Secondary Color Buttons On Hover (Default: rgb(70, 4, 4) ) */
+    --color4: rgb(0, 0, 0);
+
+    /* Unread Text Channel Color (Default: rgb(255, 255, 255) ) */
+    --color5: rgb(255, 255, 255);
+    /* Transparent Buttons On Hover (Default: rgba(0, 0, 0, 0.5) ) */
+    --color6: rgba(0, 0, 0, 0.5);
+
+    /* Tertiary Color (Default: darkre) */
+    --color10: dark;
+
+    /* Accent Color (Default: red) */
+    --accent-color: black;
+
+    /* Mention Color (Default: rgba(255, 0, 0, .2) ) */
+    --mention-background: rgba(255, 0, 0, .2);
+    /* Mention Color on Hover (Default: rgba(255, 0, 0, .1) ) */
+    --mention-background-hover: rgba(255, 0, 0, .1);
+
+    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); ) */
+    --background-url: url(https://i.imgur.com/6rlzsb8.png);
+    /* Background Color (Default: black) */
+    --background-color: black;
+
+    /* Server image/profile pictures roundness (Default: 0px) */
+    --server-list-rounding: 0px;
+    /* Width for server icons in folders (Default: 40px) */
+    --icon-width: 40px;
+
+    /* Chat text color (Default: rgb(220,221,222) ) */
+    --text-color: rgb(220,221,222);
+
+
+}
+
+
+
+.bg-1QIAus {
+                background-color: var(--color2);
+            }
+            .wordmarkWindows-2dq6rw::after {
+                content: "v1.0";
+                display: block;
+                font-size: 8pt;
+                font-weight: 500;
+                color: var(--accent-color);
+                float: left;
+                position: relative;
+                left: 5px;
+                top: 3px;
+            }
+            .wordmarkWindows-2dq6rw::before {
+                content: "FortCord";
+                display: block;
+                font-size: 11pt;
+                font-weight: 800;
+                color: var(--accent-color);
+                float: left;
+            }
+            .wordmarkWindows-2dq6rw > svg {
+                display: none;
+            }
