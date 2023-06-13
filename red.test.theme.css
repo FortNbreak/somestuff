@@ -1,0 +1,214 @@
+/* Customize */
+:root {
+    /* Primary Color (Default: rgb(85, 8, 8) ) */
+    --color1: rgb(85, 8, 8);
+    /* Secondary Color (Default: rgb(56, 0, 0) ) */
+    --color2: rgb(56, 0, 0);
+
+    /* Primary Color Buttons On Hover (Default: rgb(95, 9, 9) ) */
+    --color3: rgb(107, 12, 12);
+    /* Secondary Color Buttons On Hover (Default: rgb(70, 4, 4) ) */
+    --color4: rgb(70, 4, 4);
+
+    /* Unread Text Channel Color (Default: rgb(255, 255, 255) ) */
+    --color5: rgb(255, 255, 255);
+    /* Transparent Buttons On Hover (Default: rgba(0, 0, 0, 0.5) ) */
+    --color6: rgba(0, 0, 0, 0.5);
+
+    /* Tertiary Color (Default: darkre) */
+    --color10: dark;
+
+    /* Accent Color (Default: red) */
+    --accent-color: red;
+
+    /* Mention Color (Default: rgba(255, 0, 0, .2) ) */
+    --mention-background: rgba(255, 0, 0, .2);
+    /* Mention Color on Hover (Default: rgba(255, 0, 0, .1) ) */
+    --mention-background-hover: rgba(255, 0, 0, .1);
+
+    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); ) */
+    --background-url: url(https://i.imgur.com/6rlzsb8.png);
+    /* Background Color (Default: black) */
+    --background-color: black;
+
+    /* Server image/profile pictures roundness (Default: 0px) */
+    --server-list-rounding: 0px;
+    /* Width for server icons in folders (Default: 40px) */
+    --icon-width: 40px;
+
+    /* Chat text color (Default: rgb(220,221,222) ) */
+    --text-color: rgb(220,221,222);
+
+
+}
+
+foreignObject {
+    mask: none;
+}
+* {
+    border-radius: 0 !important;
+}
+
+/* Background */
+    .layers-OrUESM {
+        background: var(--background-url) center/cover !important;
+    }
+    .chat-2ZfjoI, .container-2cd8Mz, .container-1oAagU, .applicationStore-2nk7Lo, .scroller-29cQFV, .nowPlayingColumn-1eCBCN, .layer-86YKbF, .standardSidebarView-E9Pc3j, .contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N, .sidebarRegionScroller-FXiQOh {
+        background-color: transparent !important;
+    }
+    .scroller-hE2gWq {
+        border: 0;
+    }
+   
+
+/* Colors */
+    .item-2LIpTv, .unread-36eUEm {
+        background-color: var(--accent-color);
+    }
+    .modeUnread-3Cxepe * {
+        color: var(--color5) !important;
+    }
+    .containerDefault-3TQ5YN * {
+        color: var(--text-color) !important;
+    }
+    .containerDefault-3TQ5YN {
+        padding-top: 0;
+        margin-top: 16px;
+    }
+    .containerDefault-3TQ5YN:hover {
+        background-color: var(--color6);
+    }
+
+    /* Scroll Bars */
+        .scroller-hE2gWq::-webkit-scrollbar-thumb, .peopleList-2VBrVI::-webkit-scrollbar-thumb, .scrolling-20Of9p::-webkit-scrollbar-thumb, .scroller-kQBbkU::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+        .scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+            background-color: red;
+        }
+        .scrollerBase-_bVAAt::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        .thin-31rlnD.fade-1R6FHN::-webkit-scrollbar, .scroller-hE2gWq::-webkit-scrollbar-thumb, .popout-1KHNAq::-webkit-scrollbar {
+            width: 6px;
+        }
+        .peopleList-2VBrVI::-webkit-scrollbar, .scroller-kQBbkU::-webkit-scrollbar, .contentRegionScroller-2_GT_N::-webkit-scrollbar, .auto-2K3UW5::-webkit-scrollbar {
+            width: 12px;
+        }
+
+    /* Tab Bar */
+        .themed-Hp1KC_ {
+            background-color: var(--color1) !important;
+        }
+       
+        .sidebar-1tnWFu, .privateChannels-oVe7HL, .scroller-WSmht3, .container-1NXEtd, .container-2o3qEW, .members-3WRCEx, .members-3WRCEx > div {
+            background-color: transparent !important;
+        }
+        .member-48YF_l, .members-3WRCEx {
+            background: transparent !important;
+        }
+
+        /* Window Bar */
+            .bg-1QIAus {
+                background-color: var(--color2);
+            }
+            .wordmarkWindows-2dq6rw::after {
+                content: "v1.0";
+                font-size: 8pt;
+                font-weight: 500;
+                color: var(--accent-color);
+                float: left;
+                position: relative;
+                left: 5px;
+                top: 3px;
+            }
+            .wordmarkWindows-2dq6rw::before {
+                content: "FortCord";
+                font-size: 11pt;
+                font-weight: 800;
+                color: var(--accent-color);
+                float: left;
+            }
+            .wordmarkWindows-2dq6rw > svg {
+                display: none;
+            }
+
+        /* Search Bar */
+            .searchBar-jGtisZ { /* Servers */
+                background-color: var(--color2);
+            }
+            .searchBarComponent-3N7dCG { /* DM */
+                background-color: var(--color1) !important;
+                color: white !important;
+                font-weight: 400 !important;
+            }
+            .searchBarComponent-3N7dCG:hover {
+                background-color: var(--color3) !important;
+            }
+
+
+
+    /* Message hover buttons/Right click menu */
+        .wrapper-2vIMkT, .menu-1QACrS {
+            background-color: var(--color1);
+        }
+        .button-3bklZh:hover {
+            background-color: var(--color3);
+        }
+
+    /* Server List */
+        .scroller-3X7KbA {
+            background: var(--color2) !important;
+        }
+    
+        .clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK, .wrapper-NhbLHG:hover .content-1gYQeQ, .selected-2TbFuo .content-1gYQeQ {
+            background-color: var(--color6) !important;
+        }
+
+        .numberBadge-37OJ3S {
+            background-color: var(--accent-color) !important;
+        }
+        .mention-3XBnnZ {
+            background-color: var(--accent-color);
+        }
+
+        /* Folder */
+            .expandedFolderBackground-1kSAf6, .expandedFolderIconWrapper-3RwQpD {
+                background-color: var(--color1);
+            }
+            .expandedFolderIconWrapper-3RwQpD:hover {
+                background-color: var(--color3);
+            }
+            .wrapper-38slSD .wrapper-3kah-n .icon-3AqZ2e {
+                margin: calc( (48px - var(--icon-width)) / 2 );
+                height: var(--icon-width);
+                overflow: hidden;
+            }
+
+        .circleIconButton-1VxDrg, .childWrapper-1j_1ub {
+            background-color: var(--color1) !important;
+        }
+        .circleIconButton-1VxDrg:hover, .childWrapper-1j_1ub:hover {
+            background-color: var(--color3) !important;
+        }
+    
+    /* DM List */
+        .interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover, .selected-3veCBZ {
+            background-color: var(--color6);
+        }
+        .privateChannels-oVe7HL {
+            background-color: red;
+        }
+
+    /* Channel List */
+        .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42, .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+            background-color: var(--color6);
+        }
+    
+    /* Server Member List */
+        .member-2gU6Ar {
+            z-index: 1;
+        }
+        .clickable-28SzVr:hover .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw {
+            background-color: var(--color6);
+        }
