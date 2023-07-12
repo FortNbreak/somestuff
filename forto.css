@@ -846,16 +846,7 @@
   .theme-dark .titleBar-1it3bQ .wordmarkWindows-2dq6rw {
     color: rgba(255, 255, 255, 0.3628);
   }
-  .theme-dark .titleBar-1it3bQ .wordmarkWindows-2dq6rw::after {
-    content: "v4.0";
-    top: 11px;
-    left: 50%;
-    display: block;
-    position: absolute;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-  }
+ 
   .theme-dark .titleBar-1it3bQ .wordmarkWindows-2dq6rw svg {
     display: none;
   }
