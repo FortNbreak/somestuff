@@ -109,6 +109,11 @@
     background-image: var(--deco-lights3);
 }
 
+.contents-2MsGLg [src*='683237081493143556'] + .header-2jRmjb:after,
+.wrapper-3Un6-K:has([src*='683237081493143556']):after,
+[style*='683237081493143556'] .imageUploaderFileInput-18YkLC:after {
+    background-image: var(--deco-blanket2);
+}
 
 
 
