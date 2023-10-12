@@ -102,6 +102,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Users*/
 .contents-2MsGLg [src*='866734707861487637'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='866734707861487637']):after,
@@ -114,6 +127,26 @@
 [style*='683237081493143556'] .imageUploaderFileInput-18YkLC:after {
     background-image: var(--deco-a-radiate-yellow);
 }
+
+
+.contents-2MsGLg [src*='752663445975072899'] + .header-2jRmjb:after,
+.wrapper-3Un6-K:has([src*='752663445975072899']):after,
+[style*='752663445975072899'] .imageUploaderFileInput-18YkLC:after {
+    background-image: var(--deco-a-soulleavingbody);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -331,7 +364,6 @@ html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH [ari
     border-radius: 0;
     content: "• Look in #decos and write the name of the one you want here. \a • Either post an image of the deco or write down the name of it. \a    ○ For writing something like 'Gear Spin' you could either write 'Gear Spin' or 'Gear Spin.png,' any format works. \a    ○ For posting an image of the deco, you can either take a screenshot from one of the images in #decos, or if you have the link to the deco itself, you can post that one too. \a \a If your deco got accepted but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";    
 }
-
 
 
 
